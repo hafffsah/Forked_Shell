@@ -1,0 +1,8 @@
+name: produced-by-the-colleagues-take-one-action
+on: push
+jobs: 
+ my-job: 
+  runs-on: ubuntu-latest
+  steps: 
+   - name: mi-step
+     run: echo "Produced by The Colleagues, take 1, action!"
